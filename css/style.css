@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-	font-weight: 300;
+	font-weight: normal;
 	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	min-width: 640px;
@@ -21,6 +21,7 @@ p, a , div {
 
 h1 {
 	font-size: 3.2em;
+	font-weight: normal;
 	padding: 20px 0;
 	color: #ccc;
 }
@@ -73,7 +74,7 @@ h2 {
 }
 
 .repo h2 {
-	color: #e4e4e4;
+	color: #888;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	font-size: 20px;
