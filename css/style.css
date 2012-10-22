@@ -13,17 +13,20 @@ body {
 	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-align: center;
 	min-width: 640px;
+	background: #F9F9F9;
 }
 
-p, a , div {
-	color:#F3686D;
+p, div {
+	color: #666;
 }
 
+a {
+  color:#F3686D
+}
 h1 {
 	font-size: 3.2em;
 	font-weight: normal;
 	padding: 20px 0;
-	color: #ccc;
 }
 
 h2 {
@@ -101,20 +104,19 @@ h2 {
 #footer {
 	text-align: center;
 	font-size: 16px;
-	background: #515159;
+	background: #EEE;
 	padding-top: 60px;
 	margin-top: 60px;
 	width: 100%;
-	border-top: 1px solid #3e3e47;
 }
 
 #footer p {
 	padding-bottom: 60px;
-	color: #e4e4e4;
+	color: #AAA;
 }
 
 #footer a {
-	color: #e4e4e4;
+	color: #CCC;
 }
 
 #footer a:hover {
