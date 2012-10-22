@@ -16,7 +16,7 @@ body {
 }
 
 p, a , div {
-	color:#575d63;
+	color:#F3686D;
 }
 
 h1 {
@@ -36,8 +36,6 @@ h2 {
 
 #header {
 	padding-bottom: 24px;
-	background: #515159;
-	border-bottom: 1px solid #3e3e47;
 }
 
 #header p {
@@ -52,7 +50,7 @@ h2 {
 }
 
 .repo {
-	background: #515159;
+	background: #EEE;
 	-webkit-border-top-right-radius: 3px;
 	-webkit-border-top-left-radius: 3px;
 	-moz-border-radius-topright: 3px;
