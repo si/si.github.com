@@ -77,6 +77,6 @@ jQuery(function( $ ) {
 		}
 	};
 
-	App.init('benhowdle89'); // change this for yours!
+	App.init('si'); // change this for yours!
 
 });
