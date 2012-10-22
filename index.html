@@ -1,0 +1,65 @@
+<!DOCTYPE>
+<html>
+<head>
+ 	<meta charset="UTF-8">
+	<title>GitHub</title>
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/handlebars.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+<div id="header">
+		<div class="wrap">
+			<h1>GitHub Repos</h1>
+			<a href="https://twitter.com/share" class="twitter-share-button" data-via="Si">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div>
+	</div>
+	<div id="content" class="wrap">
+
+		<div id="me">
+
+		</div>
+		
+		<div id="repos">
+
+		</div>
+
+	</div>
+	<div id="footer">
+		<div class="wrap">
+			<p><a href="http://sijobling.com/">Si Jobling</a> – also known as <a href="https://twitter.com/Si" target="_blank">@Si</a></p>
+			<p><a href="https://twitter.com/Si" class="twitter-follow-button" data-show-count="false">Follow @Si</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+		</div>
+	</div>
+
+	<script id="repo-template" type="text/x-handlebars-template">
+	{{#this}}
+	<a href="{{url}}" class="repo">
+		<h2>{{name}}</h2>
+		<p class="description">{{description}}</p>
+		<p class="watchers">{{watchers}} watchers</p>
+	</a>
+	{{/this}}
+	</script>
+
+	<script id="me-template" type="text/x-handlebars-template">
+	{{#this}}
+	<a href="{{html_url}}" class="repo">
+		<h2>{{name}}</h2>
+		<img src="{{avatar_url}}" />
+		<p class="watchers">{{repos}} repos</p>
+	</a>
+	{{/this}}
+	</script>
+
+</body>
+</html>
