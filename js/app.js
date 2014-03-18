@@ -44,6 +44,7 @@ jQuery(function( $ ) {
 		saveRepos: function(data){
 			var dL = data.data.length;
 			var d;
+			console.log(data.data);
 			while(dL--){
 				d = data.data[dL];
 				this.repos.push({
