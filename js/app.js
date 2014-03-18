@@ -1,7 +1,11 @@
 /*global jQuery, Handlebars */
 jQuery(function( $ ) {
 	'use strict';
-
+	
+	Handlebars.registerHelper("prettifyDate", function(timestamp) {
+	    return new Date(timestamp).toString('yyyy-MM-dd')
+	});
+	
 	var Utils = {
 		ajax: function(url, success, context){
 			$.ajax({
