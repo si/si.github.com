@@ -51,7 +51,7 @@ jQuery(function( $ ) {
 					name: d.name,
 					url: d.html_url,
 					watchers: d.watchers,
-					commits: d.commits,
+					updated: d.updated_at,
 					description: d.description
 				});
 			}
