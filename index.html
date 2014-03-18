@@ -48,7 +48,7 @@
 	<a href="{{url}}" class="repo">
 		<h2>{{name}}</h2>
 		<p class="description">{{description}}</p>
-		<p class="watchers">{{watchers}} watchers</p>
+		<p class="watchers">{{commits}} commits</p>
 	</a>
 	{{/this}}
 	</script>
@@ -57,7 +57,7 @@
 	{{#this}}
 	<a href="{{html_url}}" class="repo">
 		<h2>{{name}}</h2>
-		<img src="{{avatar_url}}" />
+		<img src="{{avatar_url}}" style="max-width:100%" />
 		<p class="watchers">{{repos}} repos</p>
 	</a>
 	{{/this}}
